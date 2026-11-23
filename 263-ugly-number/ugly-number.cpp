@@ -17,13 +17,13 @@ public:
         {
             n/=5;
         }
-    if (n == 1)
-    {
-     return true;
-    }
-    else
-    {
-    return false;
-    }
+        if(n==1)
+        {
+           return true; 
+        }
+        else
+        {
+            return false;
+        }
     }
 };
